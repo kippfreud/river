@@ -1,3 +1,7 @@
+## bandit
+
+- Added `bandit.evaluate_offline`, for evaluating bandits on historical (log) data.
+
 ## metrics
 
 - Added `metrics.MAPE`.
