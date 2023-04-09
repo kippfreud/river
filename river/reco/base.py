@@ -67,7 +67,7 @@ class Ranker(base.Estimator):
         """
 
     def rank(self, user: ID, items: typing.Set[ID], x: dict = None) -> typing.List[ID]:
-        """Rank models by decreasing order of preference for a given user.
+        """Rank items by decreasing order of preference for a given user.
 
         Parameters
         ----------
